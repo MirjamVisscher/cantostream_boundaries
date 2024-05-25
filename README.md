@@ -19,7 +19,7 @@ There are two options to get this package:
 git clone https://github.com/MirjamVisscher/cantostream_boundaries.git
 
 ## Operating instructions
-1. download msaf github repository 	\# https://github.com/urinieto/msaf
+1. download the msaf github repository https://github.com/urinieto/msaf
 2. cd msaf 				\# Go to the downloaded msaf directory
 3. pip install . 			\# From the master directory of msaf
 4. pip install tsmoothie
@@ -30,7 +30,7 @@ git clone https://github.com/MirjamVisscher/cantostream_boundaries.git
 9. Execute main.py
 10. Find the results in ./results/
  
-In case you want to reuse the code for your own annotations:
+## Use the code to analyse own annotations
 
 1. Modify in main.py the names of the audio files and annotations you want to use
 2. Put the audio files in ./data/raw/audios/
@@ -63,11 +63,6 @@ In case you want to reuse the code for your own annotations:
 │   └── paper				<- figures and numbers as published in the [paper](/CITATION.md)
 └── src					<- source code, start with main.py
 
-
-
-
-
-
 ```
 ## File description of data in Experiment folder
 
@@ -82,10 +77,10 @@ In case you want to reuse the code for your own annotations:
 
 ## Audio files 
 
-The recordings used are proprietary material and will not be shared in this dataset, the playlist of the experiment is on spotify: https://open.spotify.com/playlist/5vJzuTQ345fW8iwbWx6UIn?si=ac1cd856ef17484a, the metadata of the works and the recordings used is described in the file /data/raw/Ren8_works.csv
+The recordings used are proprietary material and will not be shared in this dataset, the playlist of the experiment is on [Spotify](https://open.spotify.com/playlist/5vJzuTQ345fW8iwbWx6UIn?si=ac1cd856ef17484a), the metadata of the works and the recordings used is described in the file /data/raw/Ren8_works.csv
 
 
-### More about Ren8_annotations.csv
+### Metadata of annotations in Ren8_annotations.csv
 The file Ren8_annotations.csv contains all human annotations and the algorithms' boundaries aggregated to quarter notes.
 The human annotations are collected by hand, using sheet music. We refer to Visscher & Wiering (2024) for a full description of the method and limitations of this data.
 
