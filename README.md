@@ -14,7 +14,7 @@ In CANTOSTREAM Boundaries we analyse how humans perceive boundaries in music. Is
 ### Installation
 There are two options to get this package:
 1. Download the zip file, using the green button "<> Code" and unzip it in a folder of your preference
-2. Or alternatively, install using git: git clone https://github.com/MirjamVisscher/cantostream_boundaries.git
+2. Or alternatively, install using git ```git clone https://github.com/MirjamVisscher/cantostream_boundaries.git```
 
 ### Operating instructions
 1. Install all prerequisites
