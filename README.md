@@ -19,22 +19,22 @@ There are two options to get this package:
 git clone https://github.com/MirjamVisscher/cantostream_boundaries.git
 
 ## Operating instructions
-1. download the msaf github repository https://github.com/urinieto/msaf
+1. download the [msaf github repository](https://github.com/urinieto/msaf)
 2. cd msaf 				\# Go to the downloaded msaf directory
 3. pip install . 			\# From the master directory of msaf
 4. pip install tsmoothie
 5. pip install similaritymeasures
 6. pip install mir_eval
 7. cd CANTOSTREAM_Boundaries/src 	\# Go back to this directory
-8. put the .wav audio files in ./data/raw/audios/ In case you want to use the audio files originally used for the paper, please send an email to m.e.visscher @ uu.nl
+8. put the .wav audio files in the [audio folder](/data/raw/audio/) In case you want to use the audio files originally used for the paper, please send an email to m.e.visscher @ uu.nl
 9. Execute main.py
-10. Find the results in ./results/
+10. Find the results in the [results folder](/results/)
  
 ## Use the code to analyse own annotations
 
 1. Modify in main.py the names of the audio files and annotations you want to use
-2. Put the audio files in ./data/raw/audios/
-3. Put your .csv containing the human annotations in ./data/annotations/
+2. Put the audio files in the [audio folder](/data/raw/audio/)
+3. Put your .csv containing the human annotations in the [annotation folder](/data/annotations/)
     
 ## Project organization
 ```
