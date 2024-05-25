@@ -14,7 +14,8 @@ In CANTOSTREAM Boundaries we analyse how humans perceive boundaries in music. Is
 ### Installation
 There are two options to get this package:
 1. Download the zip file, using the green button "<> Code" and unzip it in a folder of your preference
-2. Or alternatively, install using git ```git clone https://github.com/MirjamVisscher/cantostream_boundaries.git```
+2. Or alternatively, install using git 
+```git clone https://github.com/MirjamVisscher/cantostream_boundaries.git```
 
 ### Operating instructions
 1. Install all prerequisites
@@ -68,7 +69,7 @@ There are two options to get this package:
 
 
 ### Audio files 
-The recordings used are proprietary material and will not be shared in this dataset, the playlist of the experiment is on [Spotify](https://open.spotify.com/playlist/5vJzuTQ345fW8iwbWx6UIn?si=ac1cd856ef17484a), the metadata of the works and the recordings used is described in the [Ren8_works.csv](/data/raw/Ren8_works.csv). In case you want to use the audio files originally used for the paper, please send an email to m.e.visscher @ uu.nl.
+The recordings used are proprietary material and will not be shared in this dataset, the playlist of the experiment is on [Spotify](https://open.spotify.com/playlist/5vJzuTQ345fW8iwbWx6UIn?si=ac1cd856ef17484a), the metadata of the works and the recordings used is described in [Ren8_works.csv](/data/raw/Ren8_works.csv). In case you want to use the audio files originally used for the paper, please send an email to m.e.visscher @ uu.nl.
 
 
 ### Metadata of annotations in Ren8_annotations.csv
