@@ -3,26 +3,26 @@ Version 1.0.0
 
 In CANTOSTREAM Boundaries we analyse how humans perceive boundaries in music. Is therea distinction between boundaries indicated by experts versus non-experts? And how do these human boundaries relate to those indicated by a selection of boundary detectors?
 
-## Configuration instructions
-Prerequisites:
+## Manual
+### Prerequisites
 - python 3.10
 - [msaf](https://github.com/urinieto/msaf)
 - tsmoothie
 - similaritymeasures
 - mir_eval
 
-## Installation instructions
+### Installation
 There are two options to get this package:
 1. Download the zip file, using the green button "<> Code" and unzip it in a folder of your preference
 2. Or alternatively, install using git: git clone https://github.com/MirjamVisscher/cantostream_boundaries.git
 
-## Operating instructions
+### Operating instructions
 1. Install all prerequisites
 2. Put the audio files in .wav format in the [audio folder](/data/raw/audio/). The audio files are not provided due to prorietary reasons. The recording details are to be found in the [metadata](/data/raw/metadata/)
 3. Execute main.py
 4. Find the results in the [results folder](/results/)
  
-## Use the code to analyse own annotations
+### Use the code to analyse own annotations
 1. Modify in main.py the names of the audio files and annotations you want to use
 2. Put the audio files in .wav format in the [audio folder](/data/raw/audio/)
 3. Put your .csv containing the human annotations in the [annotation folder](/data/annotations/)
@@ -55,7 +55,7 @@ There are two options to get this package:
 └── src					<- source code, start with main.py
 
 ```
-## File description of data in Experiment folder
+### File description of data in Experiment folder
 | File name       			| Description                                                                	|
 |---------------------------------------|-------------------------------------------------------------------------------|
 | Ren8_acquaintance_difficulty.csv	| participant acquaintance and perceived difficulty to annotate the works	|
@@ -67,7 +67,7 @@ There are two options to get this package:
 | Ren8_works.csv   			| description of the works and the recordings used				|
 
 
-## Audio files 
+### Audio files 
 The recordings used are proprietary material and will not be shared in this dataset, the playlist of the experiment is on [Spotify](https://open.spotify.com/playlist/5vJzuTQ345fW8iwbWx6UIn?si=ac1cd856ef17484a), the metadata of the works and the recordings used is described in the [Ren8_works.csv](/data/raw/Ren8_works.csv). In case you want to use the audio files originally used for the paper, please send an email to m.e.visscher @ uu.nl.
 
 
