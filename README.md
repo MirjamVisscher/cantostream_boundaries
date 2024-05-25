@@ -1,12 +1,12 @@
-# CANTOSTREAM_Boundaries
+# CANTOSTREAM Boundaries
 Version 1.0.0
 
-Cantostream_boundaries is a project to analyse how humans perceive boundaries in music, and to  a selection of boundary detectors.
+In CANTOSTREAM Boundaries we analyse how humans perceive boundaries in music. Is therea distinction between boundaries indicated by experts versus non-experts? And how do these human boundaries relate to those indicated by a selection of boundary detectors?
 
 ## Configuration instructions
 Prerequisites:
 - python 3.10
-- msaf
+- [msaf](https://github.com/urinieto/msaf)
 - tsmoothie
 - similaritymeasures
 - mir_eval
@@ -14,26 +14,17 @@ Prerequisites:
 ## Installation instructions
 There are two options to get this package:
 1. Download the zip file, using the green button "<> Code" and unzip it in a folder of your preference
-2. instal using git 
-
-git clone https://github.com/MirjamVisscher/cantostream_boundaries.git
+2. Or alternatively, install using git: git clone https://github.com/MirjamVisscher/cantostream_boundaries.git
 
 ## Operating instructions
-1. download the [msaf github repository](https://github.com/urinieto/msaf)
-2. cd msaf 				\# Go to the downloaded msaf directory
-3. pip install . 			\# From the master directory of msaf
-4. pip install tsmoothie
-5. pip install similaritymeasures
-6. pip install mir_eval
-7. cd CANTOSTREAM_Boundaries/src 	\# Go back to this directory
-8. put the .wav audio files in the [audio folder](/data/raw/audio/) In case you want to use the audio files originally used for the paper, please send an email to m.e.visscher @ uu.nl
-9. Execute main.py
-10. Find the results in the [results folder](/results/)
+1. Install all prerequisites
+2. Put the audio files in .wav format in the [audio folder](/data/raw/audio/). The audio files are not provided due to prorietary reasons. The recording details are to be found in the [metadata](/data/raw/metadata/)
+3. Execute main.py
+4. Find the results in the [results folder](/results/)
  
 ## Use the code to analyse own annotations
-
 1. Modify in main.py the names of the audio files and annotations you want to use
-2. Put the audio files in the [audio folder](/data/raw/audio/)
+2. Put the audio files in .wav format in the [audio folder](/data/raw/audio/)
 3. Put your .csv containing the human annotations in the [annotation folder](/data/annotations/)
     
 ## Project organization
@@ -65,19 +56,19 @@ git clone https://github.com/MirjamVisscher/cantostream_boundaries.git
 
 ```
 ## File description of data in Experiment folder
-
-- Ren8_acquaintance_difficulty.csv: participant acquaintance and perceived difficulty to annotate the works
-- Ren8_annotations.csv: boundary annotations of the works. This is the core of the dataset
-- Ren8_boundary_survey.txt: survey questions to measure the musical experience of the participants
-- Ren8_instructions.txt: instructions as given to the participants during the experiment
-- Ren8_sheet_music: folder containing the sheet music of the eight works in the experiment
-- Ren8_survey_answers.csv: participants’ answers to the survey about their musical experience
-- Ren8_works.csv: description of the works and the recordings used
+| File name       			| Description                                                                	|
+|---------------------------------------|-------------------------------------------------------------------------------|
+| Ren8_acquaintance_difficulty.csv	| participant acquaintance and perceived difficulty to annotate the works	|
+| Ren8_annotations.csv			| boundary annotations of the works. This is the core of the dataset		|
+| Ren8_boundary_survey.txt		| survey questions to measure the musical experience of the participants	|
+| Ren8_instructions.txt			| instructions as given to the participants during the experiment		|
+| Ren8_sheet_music			| folder containing the sheet music of the eight works in the experiment	|
+| Ren8_survey_answers.csv		| participants’ answers to the survey about their musical experience		|
+| Ren8_works.csv   			| description of the works and the recordings used				|
 
 
 ## Audio files 
-
-The recordings used are proprietary material and will not be shared in this dataset, the playlist of the experiment is on [Spotify](https://open.spotify.com/playlist/5vJzuTQ345fW8iwbWx6UIn?si=ac1cd856ef17484a), the metadata of the works and the recordings used is described in the file /data/raw/Ren8_works.csv
+The recordings used are proprietary material and will not be shared in this dataset, the playlist of the experiment is on [Spotify](https://open.spotify.com/playlist/5vJzuTQ345fW8iwbWx6UIn?si=ac1cd856ef17484a), the metadata of the works and the recordings used is described in the [Ren8_works.csv](/data/raw/Ren8_works.csv). In case you want to use the audio files originally used for the paper, please send an email to m.e.visscher @ uu.nl.
 
 
 ### Metadata of annotations in Ren8_annotations.csv
