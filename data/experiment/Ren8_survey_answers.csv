@@ -1,0 +1,26 @@
+,voice type,relevant degree,Instrument 1,years of lessons,years of practice,Instrument 2,years of lessons,years of practice,Instrument 3,years of lessons,years of practice,Instrument 4,years of lessons,years of practice,Instrument 5,years of lessons,years of practice,Total years of lessons,Total years of practice,hours per week music in class primary school,hours per week music in class high school,genre,renaissance listening,renaissance practice
+n1,N/A,,piano,0,2,flute,6,6,,,,,,,,,,6,8,4,1,classical1650-1900,0,0
+n2,soprano,,violin,10,20,singing,0,23,choir conducting,3,17,piano,1.5,4,,,,14.5,64,4,1,"classical, liturgical choir repertoire, pop, world music",2,2
+n3,tenor,,piano,4,9,guitar,0,9,singing,1,6,,,,,,,5,24,0,3,"anison, classical, pop, karaoke",0,0
+n4,N/A,,piano,0.3,3,Drum + guitar hero,0,10,,,,,,,,,,0.3,13,0,1,Computer games + guitar hero,0,0
+n5,N/A,,piano,0.2,0.5,,,,,,,,,,,,,0.2,0.5,1,1,21st century classical,0,0
+n6,N/A,,,,,,,,,,,,,,,,,0,0,0,3,pop,0,0
+n7,N/A,,piano,3,3,lute,1,1,accordion,0,1,folk accordion,0,1,,,,4,6,2.5,0.5,"blues, jazz, renaissance, klezmer",4,1
+n8,N/A,BA Musicology,,,,,,,,,,,,,,,,0,0,1,1,ML pop,20,0
+n9,N/A,,guitar,1,23,,,,,,,,,,,,,1,23,0,0,"metal, pop",0,0
+n10,N/A,,tin whistle + wooden flute,3,8,mandoline,0,1,guitar,1,3,,,,,,,4,12,3.5,3.5,"Irish folk, pop",1,0
+n11,bariton,,recorder,4,27,keyboard,2,21,singing,0,1,,,,,,,6,49,2,0,baroque classical,17,0
+n12,NA,,recorder,4,4,,,,,,,,,,,,,4,4,2,2,childrens’ songs,0,0
+n13,NA,,,,,,,,,,,,,,,,,0,0,0,0,,0,0
+e1,soprano,MA Musicology,piano,6,6,singing,15,59,recorder,3,6,flute,3,6,,,,27,77,1,1,"romanticism, Gregorian chant, 20th century classical",44,40
+e2,soprano,BA Musicology,piano,8,15,singing,0,30,,,,,,,,,,8,45,4,3,"pop, classical, early music, 1900-2023",21,25
+e3,bariton/tenor,,singing,7.5,49,violin,10,10,piano,6,40,viola,0,1,viola da gamba,1,1,24.5,101,15,20,"Middle Ages – 1521, Gregorian chant",40,40
+e4,tenor,BA Recorder,recorder,27,27,singing,7,10,,,,,,,,,,34,37,1,1,Middle Ages – baroque,27,27
+e5,soprano,BA Recorder,recorder,13,41,harpsichord,3,5.5,singing,0,8,viola da gamba,0,0.5,baroque dance,25,25,41,80,2,2,"1400 – 2023, pop",20,25
+e6,soprano,MA Viola da gamba,viola da gamba,28,28,bassoon,10,24,keyboard,8,31,flute,3,31,singing,28,28,77,142,8,10,"1400- 2023, pop broadway",34,28
+e7,tenor,,singing,12,32,piano,5,10,,,,,,,,,,17,42,7,1,"1000 – 2023, pop",32,32
+e8,N/A,MA Musicology,clarinet,9,33,bass clarinet,0,6,trombone,1,13,piano,0,20,,,,10,72,4,8,"19th century classical, liturgical, klezmer, carnival band, Bach, Arabic world music",25,0
+s4,N/A,,,,,,,,,,,,,,,,,0,0,N/A,N/A,N/A,N/A,N/A
+s2,N/A,,,,,,,,,,,,,,,,,0,0,N/A,N/A,N/A,N/A,N/A
+s3,alto,BA Music Theory,piano,11,25,singing,5,5,,,,,,,,,,16,30,2,0,N/A,5,0
+s4,soprano,,violin,12,15,viola,4,4,singing,7,15,piano,3,10,conducting,2.5,4,28.5,48,1,0.5,"classical, jazz, pop",21,3

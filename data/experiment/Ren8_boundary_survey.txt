@@ -1,0 +1,14 @@
+﻿Age
+Voice type
+Relevant degree
+Instrument name
+  - years of lessons
+  - years of practice
+Hours of music per week in class
+  - primary school
+  - high school
+Genres played and listened
+Renaissance
+  - years of listening
+  - years of practice
+

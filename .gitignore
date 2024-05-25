@@ -1,0 +1,22 @@
+# exclude compiled binaries and external models
+/bin
+
+# exclude data from source control by default
+/data/temp
+#/data/processed
+#/data/raw
+/data/processed/*.xlsx
+/data/raw/audio/*.wav
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore other unwanted files
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+dist/
+build/
+

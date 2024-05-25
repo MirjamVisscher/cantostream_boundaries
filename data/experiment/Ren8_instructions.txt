@@ -1,0 +1,20 @@
+Instructions Boundary annotation Ren8 dataset
+
+Preparation:
+
+We send the participant an invitation with a link to the experiment's playlist. The participants can listen to the playlist as often as they want.
+
+
+Experiment session:
+
+The participant and the researcher sit opposite each other. Before starting the experiment, the researcher shares the following information with the participant:
+
+This is an experiment, done by Utrecht University. You may stop participating at any moment, without giving a reason.
+The goal of this experiment is to understand how humans perceive boundaries in Renaissance polyphony. A boundary in music is similar to a punctuation mark in human language: by providing a sense of closure, it marks the transition from one section to another in the flow of a composition. We know that humans tend to agree a lot on where the boundaries are, but that computers have a hard time predicting where the boundaries will be perceived. In the end, your data will teach the computer to detect boundaries. 
+This experiment’s goal is not to test your musicality, but to teach the computer. Don’t worry if you feel that you have missed a boundary. Missed boundaries are also useful information for our research. It happens to everybody because there is no retake in this experiment, except for a situation where you are very confused or distracted.
+You are allowed to ask questions about the procedure, this way we will be able to verify whether our explanation of the procedure is clear to you.
+
+During the experiment, you will listen to the music, and when you perceive a boundary, you will tap my hand. If you want to avoid skin contact, you may use a pencil.
+For the weaker boundaries, similar to a comma, you tap shortly, for a strong boundary, you will tap longer, with a weight between 1 and 4. I will write your taps on sheet music. You may close your eyes, or look wherever you want, but please do not look at the sheet music.
+First, we will shortly callibrate the length of your taps and the weight of the boundaries. Then we will try it with the first piece. If all goes well, and if you still want to participate, we will continue with the next piece.
+
