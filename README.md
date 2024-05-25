@@ -1,7 +1,7 @@
 # CANTOSTREAM Boundaries
 Version 1.0.0
 
-In CANTOSTREAM Boundaries we analyse how humans perceive boundaries in music. Is therea distinction between boundaries indicated by experts versus non-experts? And how do these human boundaries relate to those indicated by a selection of boundary detectors?
+In CANTOSTREAM Boundaries we analyse how humans perceive boundaries in music. Is there a distinction between boundaries indicated by experts versus non-experts? And how do these human boundaries relate to those indicated by a selection of boundary detectors?
 
 ## Manual
 ### Prerequisites
