@@ -37,6 +37,7 @@ There are two options to get this package:
 ├── data
 │   ├── experiment                   	<- survey data, experiment instructions
 │   │   └── Ren8_sheet_music		<- sheet music used in this experiment
+│   │   └── homophonic_sheet_music	<- sheet music used in for the small homophonic experiment
 │   ├── processed                    	<- processed data, output of the functions
 │   │   ├── boundaries               	<- msaf boundaries with default settings
 │   │   ├── distances                	<- pairwise distances between annotators
