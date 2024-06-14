@@ -50,7 +50,7 @@ from algorithms import run_algorithms
 # print('results of '+f)
 # print(results)
 
-def evaluate_homophonic_paper(files, algorithms, epsilon=0.00001, evalwindow=8):
+def evaluate_homophonic_paper(files, algorithms, epsilon=0.00001, evalwindow=8, save = True):
     """
     Evaluate boundaries based on given files and algorithms.
 
@@ -88,9 +88,9 @@ def evaluate_homophonic_paper(files, algorithms, epsilon=0.00001, evalwindow=8):
                                               beta=1.0, trim=True)
         results.append([i, P, R, F])
 
-    # Save results to a CSV file
-    results_df = pd.DataFrame(results[1:], columns=results[0]).sort_values(by=['P'], ascending=False)
-    results_df.to_csv(os.path.join('..', 'results', 'paper', 'evaluation_homophonic_compositions_window8.csv'))
+    if save == True:    
+        # Save results to a CSV file
+        results_df = pd.DataFrame(results[1:], columns=results[0]).sort_values(by=['P'], ascending=False)
+        results_df.to_csv(os.path.join('..', 'results', 'paper', 'evaluation_homophonic_compositions_window8.csv'))
 
-    print('Evaluation results:')
-    print(results_df)
+    return results_df

@@ -136,7 +136,8 @@ for evalwindow in evalwindows:
 total_eval.to_csv(os.path.join('..', 'results', 'paper','evaluation.csv'))    
 
 # table 5
-evaluate_homophonic_paper(files=['1. Arcadelt, Ave Maria', '2. Isaac, Innsbruck, ich muss dich lassen'],algorithms=algorithms)
+evaluate_homophonic_paper(files=['2. Isaac, Innsbruck, ich muss dich lassen', '3. Byrd, Ave verum corpus'],algorithms=algorithms)
+
 # figure 4
 gaussian_curves_paper('w3', algorithms)
 # figure 5
