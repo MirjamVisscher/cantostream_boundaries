@@ -53,7 +53,7 @@ There are two options to get this package:
 ├── results				<- results of the experiment
 │   ├── figures                      	<- figures for a visual inspection of the data and the results
 │   └── output                       	<- evaluation of the algorithms and the non-experts
-│   └── paper				<- figures and numbers as published in the [paper](/CITATION.md)
+│   └── paper				<- figures and numbers as published in the paper
 └── src					<- source code, start with main.py
 
 ```
